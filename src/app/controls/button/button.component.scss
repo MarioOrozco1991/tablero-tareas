@@ -1,0 +1,11 @@
+.button {
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  min-width: 100%;
+  min-height: 30px;
+  &:hover {
+      box-shadow: 0 0 15px rgb(184, 165, 165);
+  }
+  position: relative;
+}
